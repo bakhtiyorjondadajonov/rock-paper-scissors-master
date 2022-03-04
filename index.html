@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again -->
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style> -->
+</head>
+<div class="container">
+  <nav class="navigation">
+    <img src="images/logo.svg" alt="logo" class="navigation__logo">
+    <div class="navigation__score-box">
+      <h4 class="heading-4 heading-4--score">score</h4>
+      <h1 class="heading-1 heading-1--number">0</h1>
+    </div>
+  </nav>
+  <div class="main ">
+    <img src="images/bg-triangle.svg" alt="triangle" class="triangle">
+    <button value="paper" class="circle circle--blue  btn-paper">
+      <div class="circle-white">
+        <img src="images/icon-paper.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+    <button class="circle circle--yellow btn-scissors">
+      <div class="circle-white">
+        <img src="images/icon-scissors.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+    <button class="circle circle--pink btn-rock">
+      <div class="circle-white">
+        <img src="images/icon-rock.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+  </div>
+  <div class="main-second hidden">
+    <h3 class="heading-3 heading-3--gamer">
+      You Picked
+    </h3>
+    <div class="circle-white circle-white--dark-1 ">
+
+    </div>
+    <button value="paper" id="second-paper" class="circle circle--blue circle--main hidden">
+      <div class="circle-white">
+        <img src="images/icon-paper.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+    <button id="second-scissor" class="circle circle--yellow circle--main hidden">
+      <div class="circle-white">
+        <img src="images/icon-scissors.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+    <button id="second-rock" class="circle circle--pink circle--main hidden">
+      <div class="circle-white">
+        <img src="images/icon-rock.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+    <!-- Game display -->
+    <div class="display-box">
+      <h3 class="heading-3 heading-3--display">Waiting....</h3>
+      <button class="again">Play again</button>
+    </div>
+
+    <h3 class="heading-3 heading-3--house">
+      House picked
+    </h3>
+    <div class="circle-white circle-white--dark-2">
+
+    </div>
+    <button id="third-paper" value="paper" class="circle circle--blue circle--main-2 hidden">
+      <div class="circle-white">
+        <img src="images/icon-paper.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+    <button id="third-scissor" class="circle circle--yellow circle--main-2 hidden">
+      <div class="circle-white">
+        <img src="images/icon-scissors.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+    <button id="third-rock" class="circle circle--pink circle--main-2 hidden">
+      <div class="circle-white">
+        <img src="images/icon-rock.svg" alt="paper" class="img-icon">
+      </div>
+    </button>
+  </div>
+  <div class="button ">Rules</div>
+  <div class="pop-up hidden">
+    <h4 class="heading-4 heading-4--rules">rules</h4>
+    <img src="images/icon-close.svg" alt="close" class="img-close">
+    <img src="images/image-rules.svg" alt="close" class="img-rules">
+
+  </div>
+</div>
+<script src="main.js"></script>
+
+<body>
+
+</body>
+
+</html>

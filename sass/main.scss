@@ -1,0 +1,14 @@
+*,*:before,*:after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+@import 'abstracts/variables.scss';
+@import 'abstracts/variables.scss';
+@import 'base/base.scss';
+@import 'base/typography.scss';
+@import 'base/utilities.scss';
+@import 'components/buttons.scss';
+@import 'layout/home.scss';
+@import 'layout/navigation.scss';

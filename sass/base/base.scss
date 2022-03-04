@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+  @media (max-width: 900px) {
+    font-size: 50%;
+  }
+  // @media (max-width: 350px) {
+  //   font-size: 40%;
+  // }
+}
+body {
+  // background-image: linear-gradient(90 deg,rgba(59, 66, 98, 0.911) 70%,hsl(0, 100%, 50%));
+  background: linear-gradient(
+    (rgba(59, 78, 165, 0.911) 60%),
+    (rgba(18, 5, 68, 0.753))
+  );
+  background-repeat: no-repeat;
+  background-size: 500%;
+  background-position: center;
+  // overflow: hidden;
+  // background-color: black;
+  font-size: 5rem;
+}

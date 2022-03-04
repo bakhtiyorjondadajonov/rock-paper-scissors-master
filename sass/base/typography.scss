@@ -1,0 +1,31 @@
+.heading-1{
+    &--number{
+font-size: 5.5rem;
+font-family:'Times New Roman', Times, serif;
+font-weight: 900;
+}
+}
+.heading-3{
+    color: white;
+    font-size: 3rem;
+    width: max-content;
+    &--gamer{
+        grid-column: 1/span 1;
+
+    }
+    &--house{
+        grid-column: 3/span 1;
+    }
+    &--display{
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+}
+.heading-4{
+    text-transform: uppercase;
+    &--score{
+font-size: 1.8rem;
+}
+&--rules{
+    font-size: 2.5rem;
+}}

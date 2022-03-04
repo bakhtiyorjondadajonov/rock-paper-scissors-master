@@ -1,0 +1,25 @@
+.button {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  justify-self: end;
+  transform: translateY(-10rem);
+  @media (max-width: 900px) {
+    justify-self: center;
+    transform: translateY(0);
+  }
+}
+.again {
+  border: none;
+  font-size: 1.8remrem;
+  font-weight: 700;
+  color: rgb(43, 40, 40);
+  background-color: white;
+  text-transform: uppercase;
+  padding: 1.5rem 5rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
